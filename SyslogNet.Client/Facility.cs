@@ -2,29 +2,32 @@
 {
 	public enum Facility
 	{
-		KernelMessages = 0,
-		UserLevelMessages = 1,
-		MailSystem = 2,
-		SystemDaemons = 3,
-		SecurityOrAuthorizationMessages1 = 4,
-		InternalMessages = 5,
-		LinePrinterSubsystem = 6,
-		NetworkNewsSubsystem = 7,
-		UUCPSubsystem = 8,
-		ClockDaemon1 = 9,
-		SecurityOrAuthorizationMessages2 = 10,
-		FTPDaemon = 11,
-		NTPSubsystem = 12,
-		LogAudit = 13,
-		LogAlert = 14,
-		ClockDaemon2 = 15,
-		LocalUse0 = 16,
-		LocalUse1 = 17,
-		LocalUse2 = 18,
-		LocalUse3 = 19,
-		LocalUse4 = 20,
-		LocalUse5 = 21,
-		LocalUse6 = 22,
-		LocalUse7 = 23
+		KERN		= 0,
+		USER		= 1,
+		MAIN		= 2,
+		DAEMON		= 3,
+		SECURITY	= 4,
+		SYSLOG		= 5,
+		LPR		= 6,
+		NEWS		= 7,
+		UUCP		= 8,
+		CRON		= 9,
+		AUTHPRIV	= 10,
+		FTP		= 11,
+
+		/* Reserved for system use */
+		NTP		= 12,
+		AUDIT		= 13,
+		ALERT		= 14,
+		CRON2		= 15,
+
+		LOCAL0		= 16,
+		LOCAL1		= 17,
+		LOCAL2		= 18,
+		LOCAL3		= 19,
+		LOCAL4		= 20,
+		LOCAL5		= 21,
+		LOCAL6		= 22,
+		LOCAL7		= 23
 	}
 }
